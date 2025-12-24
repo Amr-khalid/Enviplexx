@@ -369,7 +369,7 @@ app.post("/contact", async (req, res) => {
 });
 
 // 3. لوحة التحكم (Dashboard)
-app.get("/dashboard230", async (req, res) => {
+app.get("/dashboard", async (req, res) => {
   try {
     const subscribers = await Subscriber.find().sort({ joinedAt: -1 });
 
