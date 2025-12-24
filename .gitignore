@@ -1,0 +1,32 @@
+# --- Dependencies (المكاتب) ---
+node_modules/
+package-lock.json
+yarn.lock
+
+# --- Environment Variables (بيانات سرية) ---
+# هام جداً: هذا يمنع رفع كلمات المرور لقيت هاب
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Logs (سجلات الأخطاء) ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# --- Operating System (ملفات النظام) ---
+.DS_Store
+Thumbs.db
+
+# --- IDE & Editors (إعدادات المحرر) ---
+.vscode/
+.idea/
+
+# --- Build & Vercel (ملفات التشغيل) ---
+dist/
+build/
+.vercel
