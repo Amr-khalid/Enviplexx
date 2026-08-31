@@ -240,7 +240,7 @@ POST /delete
 
 ## 👨‍💻 المطور
 
-**Amr Khalid**
+*Amr Khalid*
 
 GitHub:
 https://github.com/Amr-khalid
